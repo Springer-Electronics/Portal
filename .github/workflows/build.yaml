@@ -54,7 +54,7 @@ jobs:
 
   lighthouse:
     runs-on: ubuntu-latest
-    if: github.repository == 'commaai/connect'
+    if: github.repository == 'moretore/connect'
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/setup-pnpm
@@ -72,7 +72,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     needs: [test]
-    if: github.repository == 'commaai/connect'
+    if: github.repository == 'moretore/connect'
     permissions:
       packages: write
       contents: read
@@ -97,7 +97,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/commaai/connect
+          images: ghcr.io/moretore/connect
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=ref,event=branch

@@ -5,10 +5,10 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@commaai/api':
-    specifier: github:commaai/comma-api#3.1.1
-    version: github.com/commaai/comma-api/68f1f9ac7629d2e859199ff6601e8c2ecce1c595
-  '@commaai/my-comma-auth':
+  '@moretore/api':
+    specifier: github:moretore/connect-api#3.1.1
+    version: github.com/moretore/connect-api/68f1f9ac7629d2e859199ff6601e8c2ecce1c595
+  '@moretore/my-comma-auth':
     specifier: ^1.4.1
     version: 1.4.1
   '@mapbox/mapbox-sdk':
@@ -1738,7 +1738,7 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@commaai/my-comma-auth@1.4.1:
+  /@moretore/my-comma-auth@1.4.1:
     resolution: {integrity: sha512-74hSXZ3Bp9YhGkhIK3WvXTDuK+rh9qWoUm2UkiMW4wNmDQWxStNkKU/vLOLsrwLueikDZ1NdY6Diw67DJVXqEA==}
     dependencies:
       babel-runtime: 6.26.0
@@ -9796,9 +9796,9 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  github.com/commaai/comma-api/68f1f9ac7629d2e859199ff6601e8c2ecce1c595:
-    resolution: {tarball: https://codeload.github.com/commaai/comma-api/tar.gz/68f1f9ac7629d2e859199ff6601e8c2ecce1c595}
-    name: '@commaai/api'
+  github.com/moretore/connect-api/68f1f9ac7629d2e859199ff6601e8c2ecce1c595:
+    resolution: {tarball: https://codeload.github.com/moretore/connect-api/tar.gz/68f1f9ac7629d2e859199ff6601e8c2ecce1c595}
+    name: '@moretore/api'
     version: 3.1.1
     dependencies:
       '@babel/runtime': 7.23.5

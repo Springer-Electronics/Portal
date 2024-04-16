@@ -27,7 +27,7 @@ const config = {
   },
   transformIgnorePatterns: [
     '^.+\\.module\\.(css|sass|scss)$',
-    'node_modules/(?!(.*@commaai.*)/)',
+    'node_modules/(?!(.*@moretore.*)/)',
   ],
   modulePaths: ['<rootDir>/src'],
   moduleNameMapper: {

@@ -5,7 +5,7 @@ import Obstruction from 'obstruction';
 import { withStyles } from '@material-ui/core/styles';
 import { Typography, IconButton, Icon, AppBar } from '@material-ui/core';
 
-import MyCommaAuth from '@commaai/my-comma-auth';
+import MyCommaAuth from '@moretore/my-comma-auth';
 
 import { selectDevice } from '../../actions';
 import { AccountIcon } from '../../icons';

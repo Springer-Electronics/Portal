@@ -9,7 +9,7 @@ import qs from 'query-string';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
-import { config as AuthConfig } from '@commaai/my-comma-auth';
+import { config as AuthConfig } from '@moretore/my-comma-auth';
 
 import Colors from '../colors';
 import { AuthAppleIcon, AuthGithubIcon, AuthGoogleIcon, RightArrow } from '../icons';

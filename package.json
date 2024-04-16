@@ -12,7 +12,7 @@
     "test-puppeteer": "jest -c src/__puppeteer__/jest.config.js",
     "test-puppeteer-build": "JEST_PUPPETEER_CONFIG=jest-puppeteer.build.config.js pnpm test-puppeteer"
   },
-  "repository": "https://github.com/commaai/connect.git",
+  "repository": "https://github.com/moretore/connect.git",
   "author": "Chris Vickery <chrisinajar@gmail.com>",
   "contributors": [
     "Joost Wooning <jwooning@gmail.com>",
@@ -24,8 +24,8 @@
     "node": ">=16"
   },
   "dependencies": {
-    "@commaai/api": "github:commaai/comma-api#3.1.1",
-    "@commaai/my-comma-auth": "^1.4.1",
+    "@moretore/api": "github:moretore/connect-api#3.1.1",
+    "@moretore/my-comma-auth": "^1.4.1",
     "@mapbox/mapbox-sdk": "^0.15.3",
     "@material-ui/core": "^1.5.1",
     "@material-ui/icons": "^1.1.1",

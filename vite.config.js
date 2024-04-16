@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
   if (mode === 'production' && process.env.SENTRY_AUTH_TOKEN) {
     sentryPlugin = sentryVitePlugin({
       authToken: process.env.SENTRY_AUTH_TOKEN,
-      org: 'commaai',
+      org: 'moretore',
       project: 'connect',
       sourcemaps: {
         filesToDeleteAfterUpload: ['**/*.map'],
